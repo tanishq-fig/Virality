@@ -1,0 +1,24 @@
+# Netlify Configuration for Virality Analyzer
+
+[build]
+  command = "npm run build"
+  publish = ".next"
+
+[build.environment]
+  NODE_VERSION = "22"
+  NPM_FLAGS = "--legacy-peer-deps"
+
+# Prevent caching issues with Prisma
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
+
+# Force fresh Prisma client generation
+[functions]
+  node_bundler = "esbuild"
+
+# Environment variables (set these in Netlify UI)
+# DATABASE_URL
+# NEXTAUTH_URL
+# NEXTAUTH_SECRET
+# GOOGLE_CLIENT_ID
+# GOOGLE_CLIENT_SECRET
