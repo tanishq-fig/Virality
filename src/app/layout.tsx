@@ -13,6 +13,13 @@ export const metadata: Metadata = {
   title: "Virality Analyzer - AI-Powered Content Intelligence",
   description: "Analyze and predict content virality with advanced AI algorithms. Understand what makes content shareable and engaging.",
   keywords: ["virality", "content analysis", "AI", "social media", "analytics"],
+  icons: {
+    icon: [
+      { url: '/icon.svg', type: 'image/svg+xml' },
+      { url: '/favicon.ico', sizes: 'any' }
+    ],
+    apple: '/apple-icon.png',
+  },
 };
 
 export default function RootLayout({

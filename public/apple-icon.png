@@ -1,0 +1,21 @@
+<svg width="180" height="180" viewBox="0 0 180 180" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background with rounded corners -->
+  <rect width="180" height="180" rx="40" fill="url(#gradient)"/>
+  
+  <!-- Trending up arrow/viral symbol -->
+  <path d="M45 112.5L67.5 90L90 101.25L112.5 67.5L135 45" stroke="white" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M106.875 45H135V73.125" stroke="white" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- Sparkle/viral indicators -->
+  <circle cx="56.25" cy="56.25" r="8" fill="white" opacity="0.8"/>
+  <circle cx="123.75" cy="112.5" r="8" fill="white" opacity="0.8"/>
+  <circle cx="146.25" cy="90" r="5.5" fill="white" opacity="0.6"/>
+  
+  <defs>
+    <linearGradient id="gradient" x1="0" y1="0" x2="180" y2="180" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#8B5CF6"/>
+      <stop offset="50%" stop-color="#6366F1"/>
+      <stop offset="100%" stop-color="#3B82F6"/>
+    </linearGradient>
+  </defs>
+</svg>
